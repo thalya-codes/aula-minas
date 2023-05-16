@@ -122,15 +122,16 @@ li {
 
 .section-portfolio{
   font-size: 36px;
-
 }
 
 .section-titulo-tamanho{
-  font-size: 50px;
+  font-size: 24px;
 }
 
 .section-titulo-portfolio{
-  color: #2F80ED;
+  color:#49BFB3;
+  font-size: 24px;
+  margin-bottom: 28px;
 }
 
 
@@ -144,15 +145,24 @@ li {
   display: flex;
   align-items: center;
   height: 30vh;
+  padding-bottom: 40.25px;
+  padding-top: 40.25px;
 }
+
 
 .lista-footer{
   color: #FFF;
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 16px;
-  display: table;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24.5px;
+}
+
+.lista-footer li {
+  display: flex;
 }
 
 .links-footer{
@@ -161,8 +171,38 @@ li {
     margin-left: 30px
 }
 
+.lista-formacao {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  margin-bottom: 64px;
+}
 
+.lista-formacao li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rodape-icone {
+  font-size: 24.5px;
+}
 
 
 /* {
 } */
+
+
+
+
+
+
+
+/*
+.section-titulo-portfolio{
+  color:#49BFB3;
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+
+*/
